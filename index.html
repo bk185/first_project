@@ -1,19 +1,163 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
-
-    <!-- Link CSS File -->
-    <link rel="stylesheet" href="style.css">
+    <title>City Care Hospital</title>
+    <style>
+.card{
+    transition:0.3s;
+}
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 20px gray;
+}
+</style>
 </head>
-<body>
 
-    <h1>Welcome to My Website</h1>
-    <p>This is a basic HTML page.</p>
+<body style="margin:0; font-family:Arial, Helvetica, sans-serif; background:#f4f8fb;">
 
-    <button>Click Me</button>
+    <!-- Navbar -->
+    <div style="background:#0a5eb0; padding:18px 60px; display:flex; justify-content:space-between; align-items:center;">
+
+        <div class="card" style="background:white;"></div>; margin:0;">🏥 City Care Hospital</h2>
+
+        <div>
+            <a href="index.html" style="color:white; text-decoration:none; margin:15px; font-size:18px;">Home</a>
+            <a href="services.html" style="color:white; text-decoration:none; margin:15px; font-size:18px;">Services</a>
+            <a href="about.html" style="color:white; text-decoration:none; margin:15px; font-size:18px;">About</a>
+            <a href="contact.html" style="color:white; text-decoration:none; margin:15px; font-size:18px;">Contact</a>
+            <a href="team.html" style="color:white; text-decoration:none; margin:15px; font-size:18px;">Our Team</a>
+        </div>
+
+    </div>
+
+    <!-- Hero Section -->
+
+    <div style="background:linear-gradient(to right,#0a5eb0,#4facfe); color:white; padding:100px 50px; text-align:center;">
+        
+
+        <h1 style="font-size:50px; margin-bottom:15px;">
+            Welcome to City Care Hospital
+        </h1>
+
+        <p style="font-size:22px; width:70%; margin:auto;">
+            Providing trusted healthcare with experienced doctors, advanced medical
+            technology, and compassionate patient care available 24/7.
+        </p>
+
+        <button style="margin-top:30px; padding:15px 35px; font-size:18px; background:white; color:#0a5eb0; border:none; border-radius:30px; cursor:pointer;">
+            Book Appointment
+        </button>
+
+    </div>
+
+    <!-- Services -->
+<div style="background:white; width:28%; padding:25px; border-radius:10px; box-shadow:0px 4px 12px lightgray;">
+
+
+    <div style="padding:60px; text-align:center;">
+
+        <h2 style="color:#0a5eb0; font-size:36px;">
+            Our Services
+        </h2>
+
+        <div style="display:flex; justify-content:space-around; margin-top:40px;">
+
+            <div style="background:white; width:28%; padding:25px; border-radius:10px; box-shadow:0px 4px 12px lightgray;">
+                <h3>🚑 Emergency Care</h3>
+                <p>24/7 emergency services with experienced medical professionals.</p>
+            </div>
+
+            <div style="background:white; width:28%; padding:25px; border-radius:10px; box-shadow:0px 4px 12px lightgray;">
+                <h3>❤️ Cardiology</h3>
+                <p>Advanced heart care with modern diagnostic and treatment facilities.</p>
+            </div>
+
+            <div style="background:white; width:28%; padding:25px; border-radius:10px; box-shadow:0px 4px 12px lightgray;">
+                <h3>🩺 General Medicine</h3>
+                <p>Complete healthcare solutions for patients of every age group.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- About -->
+     
+...
+</div>
+
+    <div style="background:#e8f4ff; padding:60px; text-align:center;">
+
+        <h2 style="color:#0a5eb0; font-size:36px;">
+            About Us
+        </h2>
+
+        <p style="font-size:19px; width:75%; margin:auto; color:#444;">
+            City Care Hospital has been serving patients with quality healthcare for
+            many years. Our mission is to provide affordable, safe, and compassionate
+            medical services using modern technology and highly qualified doctors.
+        </p>
+
+    </div>
+
+    <!-- Team -->
+     <img src="doctor-image-url"
+style="width:140px;height:140px;border-radius:50%;object-fit:cover;">
+
+    <div style="padding:60px; text-align:center;">
+
+        <h2 style="color:#0a5eb0; font-size:36px;">
+            Our Team
+        </h2>
+
+        <div style="display:flex; justify-content:space-around; margin-top:40px;">
+
+            <div style="background:white; width:28%; padding:25px; border-radius:10px; box-shadow:0px 4px 12px lightgray;">
+                <h3>👨‍⚕️ Dr. Raj Patel</h3>
+                <p>Chief Cardiologist</p>
+            </div>
+
+            <div style="background:white; width:28%; padding:25px; border-radius:10px; box-shadow:0px 4px 12px lightgray;">
+                <h3>👩‍⚕️ Dr. Priya Shah</h3>
+                <p>General Physician</p>
+            </div>
+
+            <div style="background:white; width:28%; padding:25px; border-radius:10px; box-shadow:0px 4px 12px lightgray;">
+                <h3>👨‍⚕️ Dr. Amit Mehta</h3>
+                <p>Orthopedic Surgeon</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Contact -->
+
+    <div style="background:#0a5eb0; color:white; padding:60px; text-align:center;">
+
+        <h2 style="font-size:36px;">
+            Contact Us
+        </h2>
+
+        <p style="font-size:18px;">
+            📍 123 Health Street, Ahmedabad, Gujarat
+        </p>
+
+        <p style="font-size:18px;">
+            📞 +91 98765 43210
+        </p>
+
+        <p style="font-size:18px;">
+            📧 info@citycarehospital.com
+        </p>
+
+    </div>
+
+    <!-- Footer -->
+
+    <div style="background:#063970; color:white; text-align:center; padding:20px;">
+        © 2026 City Care Hospital | All Rights Reserved
+    </div>
 
 </body>
 </html>
